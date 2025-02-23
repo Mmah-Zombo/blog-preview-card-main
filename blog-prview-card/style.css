@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "fig-tree" ;
+    src: url('../assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: fig-tree;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* THis is a comment */
+
+.preview-card {
+    background-color: white;
+    border: 1.5px solid black;
+    border-radius: 1rem;
+    max-width: 21rem;
+    padding: 1.5rem;
+    box-shadow: 8px 8px 0px 1px hsl(0, 0%, 7%);
+    margin: auto;
+}
+
+.preview-img {
+    border-radius: 0.8rem;
+    width: 100%;
+}
+
+
+#btn {
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+}
+
+.pub-date {
+    font-size: 1rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#blog-brief {
+    color: hsl(0, 0%, 42%);
+}
+
+.avatar {
+    width: 2rem;
+    height: 2rem;
+}
+
+.flex-box {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+.flex-box > p {
+    font-weight: 700;
+}
